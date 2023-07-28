@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>:: Welcome to Armstrong ::</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Custom styles for this template -->
+
+  <!--  <link href="css/style.css" rel="stylesheet">
+  <link href="fonts/stylesheet.css" rel="stylesheet"> -->
+
+
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <link rel='stylesheet' href="css/dataTables.bootstrap4.min.css">
+
+
+
+</head>
+
+<body>
+
+  <!-- partial:index.partial.html -->
+  <div class="page-wrapper chiller-theme toggled">
+    <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar" class="sidebar-wrapper">
+      <div class="sidebar-content">
+        <div class="sidebar-brand">
+          <a href="#"><img src="img/logo-ct.png" alt="icon">SMS Portal</a>
+          <div id="close-sidebar">
+            <i class="fa fa-times"></i>
+          </div>
+        </div>
+
+        <!-- sidebar-header  -->
+        <div class="sidebar-search">
+          <div>
+            <div class="input-group">
+              <input type="text" class="form-control search-menu" placeholder="Search...">
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sidebar-search  -->
+        <div class="sidebar-menu">
+          <ul>
+
+            <li class="sidebar-dropdown active">
+              <a href="#">
+                <i class="fa fa-tachometer"></i>
+                <span>Dashboard</span>
+
+              </a>
+              <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Submenu 1
+                  
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Submenu 2</a>
+                </li>
+                <li>
+                  <a href="#">Submenu 3</a>
+                </li>
+              </ul>
+            </div>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Student Management</span>
+
+              </a>
+
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-university" aria-hidden="true"></i>
+                <span>Campus Management</span>
+              </a>
+
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+                <span>Program Management</span>
+              </a>
+
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="schedule_management.html">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <span>Schedule Management</span>
+              </a>
+
+            </li>
+
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <span>Faculty Management</span>
+
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-calculator" aria-hidden="true"></i>
+                <span>Account Management</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-folder"></i>
+                <span>Assesment</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-male" aria-hidden="true"></i>
+                <span>Leave Management Portal</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <span>Preferences</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- sidebar-menu  -->
+      </div>
+      <!-- sidebar-content  -->
+
+    </nav>
+    <!-- sidebar-wrapper  -->
+    <main class="page-content">
+      <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-light bg-light">
+          <div class="container-fluid">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+              </ol>
+            </nav>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-outline">
+                    <input type="text" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">Search Here</label>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="card_info">
+                <div class="icon_box"><i class="fa fa-university" aria-hidden="true"></i></div>
+                <div class="card_content">
+                  <div class="card_txt">Courses</div>
+                  <div class="card_cnt">28</div>
+                </div>
+                <div class="bot_txt">
+                  <span class="per_cnt">+5%</span> than last week
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card_info">
+                <div class="icon_box bg_red"><i class="fa fa-user-plus" aria-hidden="true"></i></div>
+                <div class="card_content">
+                  <div class="card_txt">Total Student</div>
+                  <div class="card_cnt">2,300</div>
+                </div>
+                <div class="bot_txt">
+                  <span class="per_cnt">+5%</span> than last week
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card_info">
+                <div class="icon_box bg_green"><i class="fa fa-university" aria-hidden="true"></i></div>
+                <div class="card_content">
+                  <div class="card_txt">Campuses</div>
+                  <div class="card_cnt">34</div>
+                </div>
+                <div class="bot_txt">
+                  <span class="per_cnt">+5%</span> than last week
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card_info">
+                <div class="icon_box bg_blue"><i class="fa fa-sticky-note-o" aria-hidden="true"></i></div>
+                <div class="card_content">
+                  <div class="card_txt">Sessions</div>
+                  <div class="card_cnt">91</div>
+                </div>
+                <div class="bot_txt">
+                  <span class="per_cnt">+5%</span> than last week
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card_chart">
+                <div class="chart_wrap">
+                  <div id="bar_chart1" style="height: 200px; width: 100%;"></div>
+                </div>
+                <div class="chart_content">
+                  <h5>Website Views</h5>
+                  <p>Last Campaign Performance</p>
+                </div>
+                <div class="bot_txt">
+                  <span class="icon_time"><i class="fa fa-clock-o" aria-hidden="true"></i></span>campaign sent 2 days
+                  ago
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card_chart">
+                <div class="chart_wrap bg_green">
+                  <div id="line_chart1" style="height: 200px; width: 100%;"></div>
+                </div>
+                <div class="chart_content">
+                  <h5>Daily Sales</h5>
+                  <p><span class="percentage">(+15%)</span> increase in today sales.</p>
+                </div>
+                <div class="bot_txt">
+                  <span class="icon_time"><i class="fa fa-clock-o" aria-hidden="true"></i></span>updated 4 min ago
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card_chart">
+                <div class="chart_wrap bg_black">
+                  <div id="line_chart2" style="height: 200px; width: 100%;"></div>
+                </div>
+                <div class="chart_content">
+                  <h5>Completed Tasks</h5>
+                  <p>Last Campaign Performance</p>
+                </div>
+                <div class="bot_txt">
+                  <span class="icon_time"><i class="fa fa-clock-o" aria-hidden="true"></i></span>Just Updated
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="table_main_wrap">
+                <div class="table-reponsive tableFixHead">
+                  <table id="example" class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody class="">
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                        <td>2008/11/28</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Herrod Chandler</td>
+                        <td>Sales Assistant</td>
+                        <td>San Francisco</td>
+                        <td>59</td>
+                        <td>2012/08/06</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Rhona Davidson</td>
+                        <td>Integration Specialist</td>
+                        <td>Tokyo</td>
+                        <td>55</td>
+                        <td>2010/10/14</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Colleen Hurst</td>
+                        <td>Javascript Developer</td>
+                        <td>San Francisco</td>
+                        <td>39</td>
+                        <td>2009/09/15</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Sonya Frost</td>
+                        <td>Software Engineer</td>
+                        <td>Edinburgh</td>
+                        <td>23</td>
+                        <td>2008/12/13</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Jena Gaines</td>
+                        <td>Office Manager</td>
+                        <td>London</td>
+                        <td>30</td>
+                        <td>2008/12/19</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Quinn Flynn</td>
+                        <td>Support Lead</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2013/03/03</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Charde Marshall</td>
+                        <td>Regional Director</td>
+                        <td>San Francisco</td>
+                        <td>36</td>
+                        <td>2008/10/16</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Haley Kennedy</td>
+                        <td>Senior Marketing Designer</td>
+                        <td>London</td>
+                        <td>43</td>
+                        <td>2012/12/18</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Tatyana Fitzpatrick</td>
+                        <td>Regional Director</td>
+                        <td>London</td>
+                        <td>19</td>
+                        <td>2010/03/17</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Michael Silva</td>
+                        <td>Marketing Designer</td>
+                        <td>London</td>
+                        <td>66</td>
+                        <td>2012/11/27</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Paul Byrd</td>
+                        <td>Chief Financial Officer (CFO)</td>
+                        <td>New York</td>
+                        <td>64</td>
+                        <td>2010/06/09</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Gloria Little</td>
+                        <td>Systems Administrator</td>
+                        <td>New York</td>
+                        <td>59</td>
+                        <td>2009/04/10</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                        <td>2012/10/13</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Dai Rios</td>
+                        <td>Personnel Lead</td>
+                        <td>Edinburgh</td>
+                        <td>35</td>
+                        <td>2012/09/26</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Jenette Caldwell</td>
+                        <td>Development Lead</td>
+                        <td>New York</td>
+                        <td>30</td>
+                        <td>2011/09/03</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Yuri Berry</td>
+                        <td>Chief Marketing Officer (CMO)</td>
+                        <td>New York</td>
+                        <td>40</td>
+                        <td>2009/06/25</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>21</td>
+                        <td>2011/12/12</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Doris Wilder</td>
+                        <td>Sales Assistant</td>
+                        <td>Sidney</td>
+                        <td>23</td>
+                        <td>2010/09/20</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>47</td>
+                        <td>2009/10/09</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Gavin Joyce</td>
+                        <td>Developer</td>
+                        <td>Edinburgh</td>
+                        <td>42</td>
+                        <td>2010/12/22</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Jennifer Chang</td>
+                        <td>Regional Director</td>
+                        <td>Singapore</td>
+                        <td>28</td>
+                        <td>2010/11/14</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>28</td>
+                        <td>2011/06/07</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Fiona Green</td>
+                        <td>Chief Operating Officer (COO)</td>
+                        <td>San Francisco</td>
+                        <td>48</td>
+                        <td>2010/03/11</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Shou Itou</td>
+                        <td>Regional Marketing</td>
+                        <td>Tokyo</td>
+                        <td>20</td>
+                        <td>2011/08/14</td>
+                      
+                      </tr>
+                      <tr>
+                        <td>Michelle House</td>
+                        <td>Integration Specialist</td>
+                        <td>Sidney</td>
+                        <td>37</td>
+                        <td>2011/06/02</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Suki Burks</td>
+                        <td>Developer</td>
+                        <td>London</td>
+                        <td>53</td>
+                        <td>2009/10/22</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Prescott Bartlett</td>
+                        <td>Technical Author</td>
+                        <td>London</td>
+                        <td>27</td>
+                        <td>2011/05/07</td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Gavin Cortez</td>
+                        <td>Team Leader</td>
+                        <td>San Francisco</td>
+                        <td>22</td>
+                        <td>2008/10/26</td>
+                      
+                      </tr>
+             
+             
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <!-- page-content" -->
+  </div>
+  <!-- page-wrapper -->
+  <!-- partial -->
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/highcharts.js"></script>
+  <script src="js/highcharts-3d.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/jquery.dataTables1.10.19.min.js"></script>
+  <script src="js/dataTables.bootstrap4.min.js"></script>
+  <script>
+    $(".sidebar-dropdown > a").click(function () {
+      $(".sidebar-submenu").slideUp(200);
+      if (
+        $(this)
+          .parent()
+          .hasClass("active")
+      ) {
+        $(".sidebar-dropdown").removeClass("active");
+        $(this)
+          .parent()
+          .removeClass("active");
+      } else {
+        $(".sidebar-dropdown").removeClass("active");
+        $(this)
+          .next(".sidebar-submenu")
+          .slideDown(200);
+        $(this)
+          .parent()
+          .addClass("active");
+      }
+    });
+
+    $("#close-sidebar").click(function () {
+      $(".page-wrapper").removeClass("toggled");
+    });
+    $("#show-sidebar").click(function () {
+      $(".page-wrapper").addClass("toggled");
+    });
+  </script>
+
+
+
+  <!-- Script for datatables -->
+  <script>
+    $(document).ready(function () {
+      $('#example').DataTable();
+    });
+
+  </script>
+
+
+  <!-- Script for Hour wise Chart -->
+
+
+  <script type="text/javascript">
+
+    Highcharts.chart('bar_chart1', {
+      chart: {
+        type: 'column',
+        backgroundColor: '#3C96EE'
+
+      },
+      plotOptions: {
+        series: {
+          pointWidth: 15,
+          borderRadius: 10,
+          color: '#5556FF'
+        }
+      },
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        type: 'category',
+        labels: {
+          rotation: 0,
+          style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif',
+            color: '#fff'
+          }
+        }
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: ''
+        },
+        labels: {
+          style: {
+            color: '#fff'
+          }
+        },
+      },
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: ''
+      },
+      series: [{
+        name: 'Population',
+        data: [
+          ['Mon', 37.33],
+          ['Thu', 31.18],
+          ['Wed', 27.79],
+          ['Thr', 22.23],
+          ['Fri', 21.91],
+          ['Sat', 21.74]
+        ],
+        color: '#fff',
+        dataLabels: {
+          enabled: false,
+          rotation: -90,
+          color: '#FFFFFF',
+          align: 'right',
+          format: '{point.y:.1f}', // one decimal
+          y: 10, // 10 pixels down from the top
+          style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif',
+            color: '#fff'
+          }
+        }
+      }]
+    });
+
+
+  </script>
+
+  <script>
+    Highcharts.chart('line_chart1', {
+      chart: {
+        backgroundColor: '#4FA953',
+        type: 'line'
+      },
+      title: {
+        text: ''
+      },
+      plotOptions: {
+        series: {
+          color: '#fff'
+        }
+      },
+      xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug',
+          'Sep', 'Oct', 'Nov', 'Dec'],
+        labels: {
+          style: {
+            color: '#fff'
+          }
+        }
+      },
+
+
+      yAxis: {
+        min: 0,
+        max: 400,
+        title: {
+          text: ''
+        },
+        labels: {
+          style: {
+            color: '#fff'
+          }
+        },
+        gridLineColor: '#fff'
+      },
+      legend: {
+        layout: 'vertical',
+        backgroundColor: '#FFFFFF',
+        floating: true,
+        align: 'left',
+        x: 100,
+        verticalAlign: 'top',
+        y: 70,
+        enabled: false
+      },
+      tooltip: {
+        headerFormat: '<b>{series.name}</b><br/>',
+        pointFormat: '{point.category}: {point.y}'
+      },
+      series: [{
+        data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4,
+          194.1, 95.6, 54.4]
+      }],
+      color: '#fff'
+    });
+  </script>
+  <script>
+    Highcharts.chart('line_chart2', {
+      chart: {
+        backgroundColor: '#38383E',
+        type: 'line'
+      },
+      title: {
+        text: ''
+      },
+      plotOptions: {
+        series: {
+          color: '#fff'
+        }
+      },
+      xAxis: {
+        categories: ['Apr', 'May', 'Jun', 'Jul', 'Aug',
+          'Sep', 'Oct', 'Nov', 'Dec'],
+        labels: {
+          style: {
+            color: '#fff'
+          }
+        }
+      },
+
+
+      yAxis: {
+        min: 0,
+        max: 400,
+        title: {
+          text: ''
+        },
+        labels: {
+          style: {
+            color: '#fff'
+          }
+        },
+        gridLineColor: '#fff'
+      },
+      legend: {
+        layout: 'vertical',
+        backgroundColor: '#FFFFFF',
+        floating: true,
+        align: 'left',
+        x: 100,
+        verticalAlign: 'top',
+        y: 70,
+        enabled: false
+      },
+      tooltip: {
+        headerFormat: '<b>{series.name}</b><br/>',
+        pointFormat: '{point.category}: {point.y}'
+      },
+      series: [{
+        data: [129.2, 144.0, 176.0, 135.6, 148.5, 216.4,
+          194.1, 95.6, 54.4]
+      }],
+      color: '#fff'
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>

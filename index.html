@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>:: Welcome to Armstrong ::</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Custom styles for this template -->
+
+  <!--  <link href="css/style.css" rel="stylesheet">
+  <link href="fonts/stylesheet.css" rel="stylesheet"> -->
+
+
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+
+
+
+
+</head>
+
+<body>
+
+  <div class="main_wrapper" id="">
+    <div class="overlay">
+      <div class="container">
+        <div class="tit_bar">
+          <h6>Student Management Portal</h6>
+        </div>
+        <div class="col-lg-12 ">
+          <div class="login_wrap">
+            <div class="sign_wrap">
+              <h6>Sign in</h6>
+            </div>
+            <div class="form_wrap">
+              <div class="field_wrap">
+                <div class="form-outline">
+                  <input type="text" id="form12" class="form-control" />
+                  <label class="form-label" for="form12">Email / Phone No</label>
+                </div>
+              </div>
+              <div class="field_wrap">
+                <div class="form-outline">
+                  <input type="password" id="form12" class="form-control" />
+                  <label class="form-label" for="form12">Password</label>
+                </div>
+              </div>
+              <div class="field_wrap switch_wrap">
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Remeber Me</label>
+                </div>
+              </div>
+              <div class="btn_box">
+                <a href="dashboard.html"><button type="button" class="btn btn-warning">Sign In</button></a>
+              </div>
+              <div class="forgot_wrap">
+                <a href="#">Forgot Password?</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <footer>
+          <div class="foot_txt">
+            © Copyright 2023, <a href="#">Aikyam Solutions & Services Pvt Ltd.</a> 
+          </div>
+        </footer>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function userlogin() {
+      var uid = document.getElementById('inpUserName').value;
+      var psw = document.getElementById('inpPassword').value;
+      if (uid == 'invadmin' && psw == 'admin') {
+        window.location.href = 'dashboard.html';
+      }
+      else {
+        $('#errorMsg').show();
+      }
+    }
+  </script>
+
+</body>
+
+</html>
